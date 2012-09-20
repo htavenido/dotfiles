@@ -5,5 +5,5 @@
         path = bundle/zencoding-vim
         url = http://github.com/mattn/zencoding-vim.git
 [submodule "bundle/django"]
-        path = bundle/django
-        url = https://github.com/vim-scripts/django.vim.git
+	path = bundle/django
+	url = https://github.com/vim-scripts/django.vim.git
