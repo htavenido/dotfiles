@@ -15,5 +15,6 @@ set fdm=indent
 set nofoldenable
 set foldlevel=1
 set guifont=Monaco:h10
+set ruler
 call pathogen#infect()
 call pathogen#helptags()
