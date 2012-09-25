@@ -14,5 +14,6 @@ set softtabstop=2
 set fdm=indent
 set nofoldenable
 set foldlevel=1
+set guifont=Monaco:h10
 call pathogen#infect()
 call pathogen#helptags()
