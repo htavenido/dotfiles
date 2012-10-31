@@ -8,7 +8,7 @@ set ruler           " show the cursor position all the time
 set visualbell t_vb=    " turn off error beep/flash
 set ignorecase        "ignore case while searching
 set number            "put numbers on side
-set expandtab
+set expandtab       "inserts space characters whenever the tab key is pressed   
 set shiftwidth=2
 set softtabstop=2
 set fdm=indent
@@ -29,9 +29,9 @@ filetype plugin on
 filetype indent on
 
 " HTML (tab width 2 chr, no wrapping)
-autocmd FileType html set sw=2
-autocmd FileType html set ts=2
-autocmd FileType html set sts=2
+autocmd FileType html set shiftwidth=2
+autocmd FileType html set tabstop=2
+autocmd FileType html set softtabstop=2
 autocmd FileType html set textwidth=0
 " Python (tab width 4 chr, wrap at 79th char)
 autocmd FileType python set sw=4
@@ -44,12 +44,10 @@ autocmd FileType css set ts=2
 autocmd FileType css set sts=2
 autocmd FileType css set textwidth=79
 " JavaScript (tab width 4 chr, wrap at 79th)
-autocmd FileType javascript set sw=4
-autocmd FileType javascript set ts=4
-autocmd FileType javascript set sts=4
+autocmd FileType javascript set shiftwidth=4
+autocmd FileType javascript set tabstop=4 
+autocmd FileType javascript set softtabstop=4
 autocmd FileType javascript set textwidth=79
-
-
 
 " More memory!
 set history=1000
